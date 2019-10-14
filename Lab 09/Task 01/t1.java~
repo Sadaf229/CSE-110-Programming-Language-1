@@ -1,0 +1,15 @@
+public class t1{
+    public static void main(String[]args){
+        for(int c=18;c<=63;c+=9){
+            if(c==63){
+            System.out.print(-c);
+            }
+            if(c%2==1){
+            System.out.print(c+" ,");
+            }
+            else{
+            System.out.print(c*=1+" ,");
+            }
+        }
+    }
+}

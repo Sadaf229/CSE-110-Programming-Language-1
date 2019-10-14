@@ -1,0 +1,13 @@
+public class Task_11{
+    public static void main(String[]args){
+        for(int c=1; c<=n;c++){
+        if(n%c==0)
+        s+=1;
+        }
+        if(s==2)
+            System.out.println("The number is prime");
+        else{
+        System.out.println("The number is not prime");
+        }
+    }
+}
